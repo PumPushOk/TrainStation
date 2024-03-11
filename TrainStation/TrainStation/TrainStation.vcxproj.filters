@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="App">
+      <UniqueIdentifier>{06533b27-1f51-4cd6-ab5c-cd9befc23392}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="App\TrainStation">
+      <UniqueIdentifier>{60d9e0e0-53d7-4c0a-a05c-bde307cebfd8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="App\TrainStation\Train">
+      <UniqueIdentifier>{1e5d2ff5-139d-4048-b2b6-dda57107f097}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="App\TrainStation\Train\LeaveTime">
+      <UniqueIdentifier>{5a270875-6844-4dca-bfa3-a18a35151b4e}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="TrainStation.cpp">
+      <Filter>App\TrainStation</Filter>
+    </ClCompile>
+    <ClCompile Include="Train.cpp">
+      <Filter>App\TrainStation\Train</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>App</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="TrainStation.h">
+      <Filter>App\TrainStation</Filter>
+    </ClInclude>
+    <ClInclude Include="Train.h">
+      <Filter>App\TrainStation\Train</Filter>
+    </ClInclude>
+    <ClInclude Include="LeaveTime.h">
+      <Filter>App\TrainStation\Train\LeaveTime</Filter>
+    </ClInclude>
+    <ClInclude Include="App.h">
+      <Filter>App</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
